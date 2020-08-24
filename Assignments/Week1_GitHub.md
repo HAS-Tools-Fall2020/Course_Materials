@@ -18,7 +18,7 @@ ___
 ## To Do List
 1. Follow all of the instructions in the [ Setup Instructions](#setup) to install the necessary software and get the course repo's cloned. You should be able to do all of the steps except the homework repo **before class on Thursday**.
 1. Email Laura your GitHub user name by **Wednesday at 5pm**.
-2. Complete the suggested GitHub and command line tutorials in the [training activities](#training) section before next week.
+2. Complete the required GitHub and command line tutorials in the [training activities](#training) section before next week.
 3. Accept the homework assignment invitation to create your own homework repo.
 3. Submit your first streamflow forecast and assignment by **noon on Monday** (see forecast submission instructions).
 
@@ -66,10 +66,25 @@ ___
 
 ___
 <a name="training"></a>
-## Training Activities
-1. Work through [Chapter 3 of The Unix Workbench](https://seankross.com/the-unix-workbench/command-line-basics.html#navigating-the-command-line) and make sure you can complete the exercises in sections 3.1-3.4. Note that for Mac users you will use **Terminal** and for Windows users you should use **Git Bash** to complete these exercises. If you want more practice you can also check out this [crash course](https://learnpythonthehardway.org/book/appendixa.html).
-2. Do this [intro to GitHub tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners). [This](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6) is also a good one if you want more practice.
-3. After you have practiced this stuff from command line check out how you can do some of the same things with [Github Desktop](https://www.softwaretestinghelp.com/github-desktop-tutorial/)
+## Required Training Activities
+1. Read and do the exercises of Intro to Earth Data Science **Chapter 2** on Bash and Shell
+  - [Lesson 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/) Intro to Bash
+  - [lesson 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/bash-commands-to-manage-directories-files/) Bash Commands
+2. Read **Chapter 7** Intro to Earth Data Science on the basics of GitHub
+  - [Lesson 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) What is Version Control?
+  - [Lesson 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/fork-clone-github-repositories/) Get files from GitHub
+  - [Lesson 3](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/git-commands/) Git Commnad for Verion control
+  - [Lesson 4](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/git-undo-local-changes/) Undo local changes with Git
+2. Do this [intro to GitHub tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners).
+3. After you have practiced Git command from command line check out how you can do some of the same things with [Github Desktop](https://www.softwaretestinghelp.com/github-desktop-tutorial/)
+
+## Additional Training activities
+If you want more practice check these out:
+1. More command line practice: [Chapter 3 of The Unix Workbench](https://seankross.com/the-unix-workbench/command-line-basics.html#navigating-the-command-line) try the exercises in sections 3.1-3.4. Note that for Mac users you will use **Terminal** and for Windows users you should use **Git Bash** to complete these exercises.
+2. Even more command line practice:  [crash course](https://learnpythonthehardway.org/book/appendixa.html)
+3. Another [Github tutorial](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6) with practice exercises
+4. A GitHub tutorial setup as a [game](https://learngitbranching.js.org/)
+
 
 ___
 <a name="assignment"></a>
@@ -105,7 +120,7 @@ This week you will generate your first streamflow forecast. The rules for this f
 ### 5. Submit your first forecast homework assignment
 In addition to submitting your numerical forecasts to the forecast competition you also need to submit a description of your forecast through your homework repo. This is what I will be grading for credit.
 
-- Create a file named lastname_HW1.md in the **submisison** folder of your homework repo. The easiest way  to do this is just to creat a new file in atom.
+- Create a file named lastname_HW1.md in the **submission** folder of your homework repo. The easiest way  to do this is just to create a new file in atom.
 
 - Include a header in your file that includes, your name, the date, and the assignment number
 

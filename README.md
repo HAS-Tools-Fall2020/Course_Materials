@@ -9,9 +9,14 @@ The **Content** folder contains all of the reference materials and codes we will
 Refer to the **Forecast** repo for all information and materials relevant for the forecast Competition.
 
 ____
-## Helpful Links and Tutorials
-This is a list of resources you may want to refer back to throughout the semester. Additionally you should check out the *cheat sheet* folder in the content tab for additional resources.
+## Online Textbooks and General Python Resources
+- [Intro to Earth Data Science Textbook](https://www.earthdatascience.org/courses/intro-to-earth-data-science/)
+- [Intermediate Earth Data Science Textbook](https://www.earthdatascience.org/courses/use-data-open-source-python/)
+- [Python for Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
+- [W3 School Python Tutorial](https://www.w3schools.com/python/python_variables.asp)
 
+____
+## Helpful Links and Tutorials for other tools
 - **Command Line** Note that as long as Windows users are using Git Bash the commands will be the same for them as Mac users. If Windows users use PowerShell instead some of the commands will be different.
   - [Unix Workbench - Command Line Basics (Mac Termina and Git Bash)](https://seankross.com/the-unix-workbench/command-line-basics.html#summary)
   - [Command Line Crash Course (Windows and Mac)](https://learnpythonthehardway.org/book/appendixa.html)
@@ -20,6 +25,7 @@ This is a list of resources you may want to refer back to throughout the semeste
 - **GitHub**
   - [Intro to GitHub Tutorial](https://product.hubspot.com/blog/git-andgithub-tutorial-for-beginners)
   - [Another GitHub Tutorial](https://towardsdatascience.com/gettingstarted-with-git-and-github-6fcd0f2d4ac6)
+  - [Github training game](https://learngitbranching.js.org/)
 
 - **GitHub desktop**
   - [Getting started guide](https://docs.github.com/en/desktop/getting-started-with-github-desktop)
@@ -29,3 +35,21 @@ This is a list of resources you may want to refer back to throughout the semeste
   - [Getting started](https://flight-manual.atom.io/getting-startedsections/atom-basics/)
   - [Installing packages](https://flight-manual.atom.io/using-atomsections/atom-packages/)
   - [Adding images to Markdown](https://atom.io/packages/markdown-imageassistant)
+
+- **Conda**
+  - [Quick environment setup workflow](https://uoa-eresearch.github.io/eresearch-cookbook/recipe/2014/11/20/conda/)
+  - [Detailed user-guide for managing environments](https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html)
+
+- **VS code**
+  - [Basics of coding in VS code](https://code.visualstudio.com/docs/editor/codebasics)
+  - [Tips and tricks for working in VS code](https://code.visualstudio.com/docs/getstarted/tips-and-tricks)
+  - [Working with GitHub in VS code](https://code.visualstudio.com/docs/editor/github)
+  - [Using terminal in VS code](https://code.visualstudio.com/docs/editor/integrated-terminal)
+  - [Python environments in VS code](https://code.visualstudio.com/docs/python/environments)
+
+- **Jupyter**  
+    - [Jupyter Tutorial](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
+
+- **Markdown**
+  - [Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+  -[Another Longer Markdown Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#emphasis)
