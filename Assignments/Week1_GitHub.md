@@ -1,4 +1,4 @@
-# Week 1: GitHub, Command Line, and our first forecast
+# Week 1: GitHub, command line, and our first forecast
 
 This readme has the instructions for the first week of class. Every week you will find a readme similar to this outlining the activities and instructions you will need as well as the weekly forecasting assignment.
 
@@ -17,7 +17,7 @@ ___
 <a name="todo"></a>
 ## To Do List
 1. Follow all of the instructions in the [ Setup Instructions](#setup) to install the necessary software and get the course repo's cloned. You should be able to do all of the steps except the homework repo **before class on Thursday**.
-1. Email Laura your GitHub user name by **Wednesday at 5pm**.
+1. Email Laura your GitHub user name and email address by **Wednesday at 5pm**.
 2. Complete the required GitHub and command line tutorials in the [training activities](#training) section before next week.
 3. Accept the homework assignment invitation to create your own homework repo.
 3. Submit your first streamflow forecast and assignment by **noon on Monday** (see forecast submission instructions).
