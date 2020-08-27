@@ -74,7 +74,7 @@ ___
 1. Read and do the exercises of Intro to Earth Data Science **Chapter 2** on Bash and Shell
   - [Lesson 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/) Intro to Bash
   - [lesson 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/bash-commands-to-manage-directories-files/) Bash Commands
-2. Read **Chapter 7** Intro to Earth Data Science on the basics of GitHub 
+2. Read **Chapter 7** Intro to Earth Data Science on the basics of GitHub
   - [Lesson 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) What is Version Control?
   - [Lesson 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/fork-clone-github-repositories/) Get files from GitHub
   - [Lesson 3](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/git-commands/) Git Commnad for Verion control
@@ -105,23 +105,23 @@ This week you will generate your first streamflow forecast. The rules for this f
 
 - The data will load in a new tab of your browser. Right click and save it as a *streamflow_week1.txt* file in the *data* folder of your **homework repo**.
 
-### 2. Import the data into Excel and calculate the average
+### 2. Import the data into Excel to look at it
 - Open a new Excel workbook and copy and paste the text file into it.
 - Use the *text to columns* option in the *data* menu and select *delimited* and by *tabs* to separate the data into columns (If tab doesn't work you can also delimit by *space*)
 - Save your workbook as *streamflow_week1.xlsx* in the *assignment_1* folder.
 - Read the documentation at the top of the file to understand the format of the data you have downloaded.
-- Look at the streamflow values and decide what your forecasted flows will be (remember you can't do any math here other than taking an average, the idea here is just to take a look at the historical flow and use your own judgement to make a forecast).  You need to make three forecasts all of which should be expressed as average daily flow in cfs (1) flow next week, (2) flow two weeks from now, (3) flow for every week of the semester.
+- Look at the streamflow values and decide what your forecasted flows will be (remember no math is expected here, the idea here is just to take a look at the historical flow and use your own judgement to make a forecast).  You need to make three forecasts all of which should be expressed as average daily flow in cfs (1) flow next week, (2) flow two weeks from now, (3) flow for every week of the semester.
 
-### 5. Submit your first forecast to the competition
+### 3. Submit your first forecast to the competition
 - Clone the Forecasting repo from our course organization website on GitHub: https://github.com/HAS-Tools-Fall2020
-- To avoid conflicts make sure your local repo is up to date before you submit your forecast. You can do this with they synch option in github desktop or by doing `git pull`. Refer to the training materials for more information if you forget how to do this.
+- To avoid conflicts make sure your local repo is up to date before you submit your forecast. You can do by typing `git pull` from terminal inside the course  repo folder or using the bottom bar of atom to do a fetch and then pull. Refer to the training materials for more information if you forget how to do this.
 - Find the csv with your last name in the *forecast_entries* folder and enter your forecasts. Enter your forecasts on the row for foercast #1. A few notes:
     - Make sure you just enter numbers (i.e. enter 5 not 5 cfs)
     - Don't convert the file to an xlsx file keep it as a csv.
     - the one '1week' and '2week' refers to your forecasts for next week and the following week. The 'lt_weekx' columns are for your forecasts for every week of the semester. You can refer to the forecasts_dates files in the Forecast repo for more details.
 - Save your changes, commit them, and push your changes. Again you can do this in GitHub desktop or  on command line.
 
-### 5. Submit your first forecast homework assignment
+### 4. Submit your first forecast homework assignment
 In addition to submitting your numerical forecasts to the forecast competition you also need to submit a description of your forecast through your homework repo. This is what I will be grading for credit.
 
 - Create a file named lastname_HW1.md in the **submission** folder of your homework repo. The easiest way  to do this is just to create a new file in atom.
