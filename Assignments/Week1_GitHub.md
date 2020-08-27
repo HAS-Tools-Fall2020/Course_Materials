@@ -56,7 +56,7 @@ I recommend you start by creating a directory for this class where you will keep
  <a name="atom"></a>
  #### 4.	Install **Git Kraken**
   - This is a handy GUI for working with Git Repos. You can get it [here](https://www.gitkraken.com/). No need to worry about boards or timelines for now you can just install the GUI.
-  - You can also get a free upgrade to Git Kraken pro as a student if you go [here](https://education.github.com/pack?utm_source=github+gitkraken). This will let you work with private as  well as public repos using Git Kraken. 
+  - You can also get a free upgrade to Git Kraken pro as a student if you go [here](https://education.github.com/pack?utm_source=github+gitkraken). This will let you work with private as  well as public repos using Git Kraken.
 ___
 <a name="classroom"></a>
 ## Getting Started - Homework and GitHub Classroom
@@ -74,7 +74,7 @@ ___
 1. Read and do the exercises of Intro to Earth Data Science **Chapter 2** on Bash and Shell
   - [Lesson 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/) Intro to Bash
   - [lesson 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/bash-commands-to-manage-directories-files/) Bash Commands
-2. Read **Chapter 7** Intro to Earth Data Science on the basics of GitHub
+2. Read **Chapter 7** Intro to Earth Data Science on the basics of GitHub 
   - [Lesson 1](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/) What is Version Control?
   - [Lesson 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/fork-clone-github-repositories/) Get files from GitHub
   - [Lesson 3](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/git-commands/) Git Commnad for Verion control
