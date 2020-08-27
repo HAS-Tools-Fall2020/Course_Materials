@@ -53,6 +53,10 @@ I recommend you start by creating a directory for this class where you will keep
 #### 3.	Install the **Atom text editor**
  - This is a great text editor that has GitHub integration.You can install it for Mac or Windows [here](https://atom.io/)
 
+ <a name="atom"></a>
+ #### 4.	Install **Git Kraken**
+  - This is a handy GUI for working with Git Repos. You can get it [here](https://www.gitkraken.com/). No need to worry about boards or timelines for now you can just install the GUI.
+  - You can also get a free upgrade to Git Kraken pro as a student if you go [here](https://education.github.com/pack?utm_source=github+gitkraken). This will let you work with private as  well as public repos using Git Kraken. 
 ___
 <a name="classroom"></a>
 ## Getting Started - Homework and GitHub Classroom
