@@ -79,8 +79,7 @@ ___
   - [Lesson 2](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/fork-clone-github-repositories/) Get files from GitHub
   - [Lesson 3](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/git-commands/) Git Commnad for Verion control
   - [Lesson 4](https://www.earthdatascience.org/courses/intro-to-earth-data-science/git-github/version-control/git-undo-local-changes/) Undo local changes with Git
-2. Do this [intro to GitHub tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners).
-3. After you have practiced Git command from command line check out how you can do some of the same things with [Github Desktop](https://www.softwaretestinghelp.com/github-desktop-tutorial/)
+
 
 ## Additional Training activities
 If you want more practice check these out:
@@ -88,6 +87,8 @@ If you want more practice check these out:
 2. Even more command line practice:  [crash course](https://learnpythonthehardway.org/book/appendixa.html)
 3. Another [Github tutorial](https://towardsdatascience.com/getting-started-with-git-and-github-6fcd0f2d4ac6) with practice exercises
 4. A GitHub tutorial setup as a [game](https://learngitbranching.js.org/)
+5. Do this [intro to GitHub tutorial](https://product.hubspot.com/blog/git-and-github-tutorial-for-beginners)
+6. Example showing how you can do some of the same things with[Github Desktop](https://www.softwaretestinghelp.com/github-desktop-tutorial/)
 
 
 ___
