@@ -74,10 +74,10 @@ The IDE we will be using this semester is Visual Studio Code, called VS Code for
   - Open the application.
 
 - After you have installed VS Code you will need to install the Python extension. To do this go to view > extensions on the dropdown menu and then search for 'python'. You want the main one that comes up. It looks like this:
-![](assets/Week2_Python-c2cc12d9.png)
+![](assets/Week2_Python_Install-7427ccbd.png)
 
 - After you have installed VS Code you should set it to use the python environment you just made by following the instructions [here](https://code.visualstudio.com/docs/python/environments#_where-the-extension-looks-for-environments). If this is  done correctly you should see your python environment in the bottom left corner of your vs code window like this:
-![](assets/Week2_Python-2052b424.png)
+![](assets/Week2_Python_Install-376f5919.png)
 ___
 <a name="training"></a>
 ## Required Training Activities
