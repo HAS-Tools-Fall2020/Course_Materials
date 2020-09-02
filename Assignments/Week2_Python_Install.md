@@ -25,6 +25,23 @@ ___
 #### 1. Install Miniconda
 - Download and install the correct version of mini conda for your operating system. You can find all the options [here](https://docs.conda.io/en/latest/miniconda.html). Make sure you **pick the Python3.x not Python2.x version** for your system. Follow the prompts to install. The default options should be fine.
 - Once you have done this you should be able to check you have it installed by typing `conda info` from command line. If it worked you should see all the info for what you just installed.
+- If you get a message saying "command not found" when you type `conda info` then you will need to do the following additional steps:
+  - open a new git bash window and type `vi .bash_profile`
+  - You have now opened a file called ".bash_profile" in the program *vi*. To start editing this file type `i` you will see at the bottom of the screen that it is in insert mode now'
+  - now type the following line into your file replacing the 'username' with whatever your user name is on your computer:
+  ```
+  export PATH="/c/Users/username/miniconda3/Scripts:$PATH"
+  ```
+  - once you have typed this line hit the **escape** button to exit insert mode
+  - now hold down the **shift** key and type `zz` to exit and save your changes
+  - to be sure you did it right you can `vi .bash_profile` again and you should see the line you added there. To quit without saving type `vi .bash_profile`
+  - Now that we have updated our bash profile we need to source it. So from you terminal type: `source .bash_profile`
+  - If this worked you should no longer get a "command not found error" when you type `conda info`
+  - Assuming you passed the last test you need to do one more setup step by typing `conda init bash`
+  - Finally, to get this last step to take effect you will need to **close your current git bash window and open an new one**.
+  - Fingers crossed... this should do it. You can now proceed to step 2! 
+
+
 
 <a name="environment"></a>
 #### 2. Make an environment for this class and activate it
