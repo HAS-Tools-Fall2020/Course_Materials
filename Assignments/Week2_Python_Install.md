@@ -32,14 +32,14 @@ ___
   ```
   export PATH="/c/Users/username/miniconda3/Scripts:$PATH"
   ```
-  - once you have typed this line hit the **escape** button to exit insert mode
-  - now hold down the **shift** key and type `zz` to exit and save your changes
-  - to be sure you did it right you can `vi .bash_profile` again and you should see the line you added there. To quit without saving type `vi .bash_profile`
+  - Once you have typed this line hit the **escape** button to exit insert mode
+  - Now hold down the **shift** key and type `zz` to exit and save your changes
+  - To be sure you did it right you can `vi .bash_profile` again and you should see the line you added there. To quit without saving type `:q!`
   - Now that we have updated our bash profile we need to source it. So from you terminal type: `source .bash_profile`
   - If this worked you should no longer get a "command not found error" when you type `conda info`
   - Assuming you passed the last test you need to do one more setup step by typing `conda init bash`
   - Finally, to get this last step to take effect you will need to **close your current git bash window and open an new one**.
-  - Fingers crossed... this should do it. You can now proceed to step 2! 
+  - Fingers crossed... this should do it. You can now proceed to step 2!
 
 
 
