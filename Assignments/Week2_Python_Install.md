@@ -95,6 +95,33 @@ The IDE we will be using this semester is Visual Studio Code, called VS Code for
 
 - After you have installed VS Code you should set it to use the python environment you just made by following the instructions [here](https://code.visualstudio.com/docs/python/environments#_where-the-extension-looks-for-environments). If this is  done correctly you should see your python environment in the bottom left corner of your vs code window like this:
 ![](assets/Week2_Python_Install-376f5919.png)
+
+- It this point you should  try running a python script. When you try to run a script using Python Interactive in VSCode for the first time, you will be prompted in a dialog box to download IPyKernal.
+
+- If you are unable to download IPyKernal, the terminal will load and report an error similar to the below (in addition to a bunch of other text):
+```
+conda : The term 'conda' is not recognized as the name of a cmdlet, function, script file, .....
+```
+
+  - The problem is that the default terminal in VSCode (for windows) is power shell. Power shell doesn't work well with VSCode.
+
+  - **The solution is to change the default terminal in VSCode to 'command prompt' using the following steps:**
+
+  1. Hit ctrl+shift+p
+  2. Search for 'Terminal: Select Default Shell', and click
+  3. There should be a few available, including 'bash', 'power shell', and 'command prompt'. Click on 'command prompt'
+  4. Exit and re-enter VSCode for the change to stick.
+
+  - That's it! You should be able to download IPyKernal and run your script now.
+
+  - To further check that 'command prompt' is your default terminal:
+
+  5. Click in the toolbar View > Terminal
+  6. At the top of the terminal, you should see a drop-down menu. Listed at the very top should be '1: cmd'.
+  7. You can triple check by seeing `conda` and `python` work in the command line. For example, simply type in `conda`, and you'll get back a message starting with `conda is a tool for managing and deploying applications, environments and packages.`.
+
+  - If something went wrong, you'll find a message such as: `bash: conda: command not found`. Try to start at step 1 again.
+
 ___
 <a name="training"></a>
 ## Required Training Activities
