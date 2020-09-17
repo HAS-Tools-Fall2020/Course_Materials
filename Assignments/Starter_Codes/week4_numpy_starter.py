@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 # ** MODIFY **
 # Set the file name and path to where you have stored the data
 filename = 'streamflow_week1.txt'
-filepath = os.path.join('data', filename)
+filepath = os.path.join('../../../data', filename)
 print(os.getcwd())
 print(filepath)
 
@@ -42,6 +42,18 @@ del(data)
 # Starter Code
 # Count the number of values with flow > 600 and month ==7
 flow_count = np.sum((flow_data[:,3] > 600) & (flow_data[:,1]==7))
+
+# this gives a list of T/F where the criteria are met
+(flow_data[:,3] > 600) & (flow_data[:,1]==7)
+
+# this give the flow values where that criteria is met
+flow_pick = flow_data[(flow_data[:,3] > 600) & (flow_data[:,1]==7), 3]
+
+# this give the year values where that criteria is met
+year_pic = flow_data[(flow_data[:,3] > 600) & (flow_data[:,1]==7), 0]
+
+# this give the all rows  where that criteria is met
+all_pic = flow_data[(flow_data[:,3] > 600) & (flow_data[:,1]==7), ]
 
 # Calculate the average flow for these same criteria 
 flow_mean = np.mean(flow_data[(flow_data[:,3] > 600) & (flow_data[:,1]==7),3])

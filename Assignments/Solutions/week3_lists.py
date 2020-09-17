@@ -10,8 +10,8 @@ import matplotlib.pyplot as plt
 # %%
 # ** MODIFY **
 # Set the file name and path to where you have stored the data
-filename = 'streamflow_week2.txt'
-filepath = os.path.join('../../../data', filename)
+filename = 'streamflow_week1.txt'
+filepath = os.path.join('data', filename)
 print(os.getcwd())
 print(filepath)
 
@@ -62,7 +62,7 @@ ilist = []
 # and adding the index value to the ilist
 # if it meets some criteria that I specify
 for i in range(len(flow)):
-        if flow [i] > 600 and month[i] == 7:
+        if flow [i] > 600 and flow [i] <= 700:
                 ilist.append(i)
 
 # see how many times the criteria was met by checking the length
@@ -114,7 +114,7 @@ print("this is", len(gt_list)/len(sept_list)*100, "% of the time after 2010")
 # 4. How does the flow generally change from the first half of
 # September to the second?
 first_half = [flow[i] for i in range(len(flow)) if \
-          month[i]==9 and day[i] <= 15]
+        month[i]==9 and day[i] <= 15]
 second_half = [flow[i] for i in range(len(flow)) if \
           month[i]==9 and day[i] >= 15]
 print("First half average flows", np.mean(first_half))
