@@ -36,5 +36,10 @@ xc=np.reshape(np.arange(2,33,2),(4,4), order='F')
 xd=np.arange(2,33,2).reshape(4,4, order='F')
 
 # BONUS:
-# Create the same 3x3 matrix with value ranging from 2-10 as you did 
-# in part a but this time do so by combining one 3X1 matrix and one 1X3 matrix
+# Create the same 3x3 matrix with value ranging from 2-10 
+# as you did in part a but this time do so by combining 
+# one 3X1 matrix and one 1X3 matrix
+x=np.arange(2,5,1) 
+y = np.arange(0,7,3).reshape(3,1)
+z= x+y
+
