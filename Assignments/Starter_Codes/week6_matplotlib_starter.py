@@ -91,11 +91,11 @@ x2=train[['flow_tm1','flow_tm2']]
 model2.fit(x2,y)
 r_sq = model2.score(x2, y)
 print('coefficient of determination:', np.round(r_sq,2))
-print('intercept:', np.round(model.intercept_, 2))
-print('slope:', np.round(model.coef_, 2))
+print('intercept:', np.round(model2.intercept_, 2))
+print('slope:', np.round(model2.coef_, 2))
 
 # generate preditions with the funciton
-q_pred2_train = model.predict(train[['flow_tm1', 'flow_tm2']])
+q_pred2_train = model2.predict(train[['flow_tm1', 'flow_tm2']])
 
 # or by hand
 q_pred2 = model2.intercept_   \
