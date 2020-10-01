@@ -32,7 +32,7 @@ ___
   - [Customizing  Plot Legends](https://jakevdp.github.io/PythonDataScienceHandbook/04.06-customizing-legends.html)
   - [Customizing Colorbars](https://jakevdp.github.io/PythonDataScienceHandbook/04.07-customizing-colorbars.html)
   - [Multiple Subplots](https://jakevdp.github.io/PythonDataScienceHandbook/04.08-multiple-subplots.html)
-  - [Customizing  Matplotlib: Configurations and Stylesheets](https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.htmll)
+  - [Customizing  Matplotlib: Configurations and Stylesheets](https://jakevdp.github.io/PythonDataScienceHandbook/04.10-customizing-ticks.html)
 ___
 <a name="assignment"></a>
 ## Assignment 5: Pandas DataFrames
