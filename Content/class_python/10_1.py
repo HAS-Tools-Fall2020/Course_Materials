@@ -131,6 +131,7 @@ ax1.plot(x, np.sin(x))
 ax2.plot(x, np.cos(x))
 ax3.plot(x, np.sin(x))
 ax4.plot(x, np.cos(x))
+plot.show()
 
 fig.savefig('test.png')
 
