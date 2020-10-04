@@ -7,14 +7,15 @@ ____
 1. [ Resources](#resources)
 1. [ Training Activities](#training)
 1. [ Forecast Assignment](#assignment)
+1. [ Code Review Partners](#partners)
 ___
 <a name="todo"></a>
 ## To Do List
 1. Setup linting in VSCode following the [setup](#setup) instructions. If possible test this out **before class on Thursday** so you can get help if needed.  
 
-1. Revise **your code** by **Friday at Midnight** following [Part 1 of the forecast assignment](#assignment) instructions.   
+1. Revise **your code** by **Friday at Midnight** following [Part 1 of the forecast assignment](#assignment) instructions. Submitting a script and a ReadMe that your partner can generate a forecast from is worth 3 points.   
 
-2. After part 1 has been completed (i.e starting Saturday morning) **review your partners code and run their forecast**. You will submit your code evaluation and your partners forecast by **noon on Monday**. See [Part 2 of the Forecast Assignment](#assignment) for more details.
+2. After part 1 has been completed (i.e starting Saturday morning) **review your partners code and run their forecast**. You will submit your code evaluation and your partner's forecast by **noon on Monday**. See [Part 2 of the Forecast Assignment](#assignment) for more details. Your evaluation is worth 4 points.
 
 **NOTE**: You will **not** be submitting your own forecast this week. Whoever is running your script will be submitting it for you. You will be scored based on the forecast they submit on your behalf.
 
@@ -71,7 +72,7 @@ This week we will be working from the script you submitted for assignment 6 and 
 
 - You can use the streamflow data up to the Saturday before the forecast is due for making your decisions.
 
-#### Assignment Part 1 (Due Friday Midnight):
+#### Assignment Part 1 (Due Friday Midnight, 3 points):
 For the first part of the assignment this week you will be revising the code you submitted for the previous assignment to make it easier to read and so that someone else will be able to run your forecast.  You should refer to the evaluation rubric in the starter code folder for complete details on how your script will be evaluated in peer review.
 
 **Your script must be able to do the following:**
@@ -100,10 +101,10 @@ For the first part of the assignment this week you will be revising the code you
  - Your code review following the rubric
 
 
-#### Assignment Part 2 (Due Monday at Noon):
+#### Assignment Part 2 (Due Monday at Noon, 4 points):
 For the second part of this assignment you will be working in your partners repo. You can start this part on Saturday morning after they have submitted their revised script.
 
-1. First check the top of this file to see who your partner is.
+1. First check below to see who your partner is.
 
 2. Clone their repo to your computer. You can find their repo by going to the [main GitHub organization page](https://github.com/HAS-Tools-Fall2020) for this class.
 
@@ -116,3 +117,8 @@ For the second part of this assignment you will be working in your partners repo
 6. Enter the two forecast values into the `lastname.csv` file **for your partner**. Remember you are entering their forecast for them this week, not your own!
 
 **Note**: Unless your partner fails to submit a working script by Friday, if you don't get your partners forecast submitted in time any points that you are awarded this week in the forecast competition will be transferred to your partner.
+
+___
+<a name="partners"></a>
+## Code Review Partners
+![](assets/Week7_Python_Skills5-ed0dac61.png)
