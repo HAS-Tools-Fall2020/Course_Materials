@@ -50,6 +50,7 @@ This week your assignment is to add one additional dataset to your analysis usin
 The starter code file for this week has examples of accessing data from DayMet and from MesoNet. You can use these as your starting points, or you can get any time series data you would like.
 
 You might want to check out the following links for stations and datasets:
+- [MesoWest station mapper](https://mesowest.utah.edu/cgi-bin/droman/mesomap.cgi?state=AZ&rawsflag=3)
 - [USGS Basin summary](https://water.usgs.gov/lookup/getwatershed?15060202/www/cgi-bin/lookup/getwatershed)
 - [NOAA station mapper](https://www.ncdc.noaa.gov/cdo-web/datatools/findstation)
 
