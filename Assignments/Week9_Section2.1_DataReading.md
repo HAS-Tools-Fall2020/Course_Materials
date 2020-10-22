@@ -36,7 +36,7 @@ ___
 ___
 <a name="instructions"></a>
 ## Setup instructions
-To use the weather station data you will need to sign up for a token with the Mesonet database.
+To use the weather station data you will need to sign up for a token with the Mesonet database. You don't have to use this datasets for your assignment but I suggest doing the sign up step regardless. 
 
 1. Read the getting started instruction on the mesonet website [here](https://developers.synopticdata.com/mesonet/v2/getting-started/)
 2. [Sign up](https://developers.synopticdata.com/signup/). Fill out the required fields. When this is successful you should get to a page that gives you a token and you should also receive a confirmation email with your token. You can always log back into your account to get this token again or to generate more by going to [this site](https://myaccount.synopticdata.com/)
@@ -53,6 +53,7 @@ You might want to check out the following links for stations and datasets:
 - [MesoWest station mapper](https://mesowest.utah.edu/cgi-bin/droman/mesomap.cgi?state=AZ&rawsflag=3)
 - [USGS Basin summary](https://water.usgs.gov/lookup/getwatershed?15060202/www/cgi-bin/lookup/getwatershed)
 - [NOAA station mapper](https://www.ncdc.noaa.gov/cdo-web/datatools/findstation)
+- [USGS Rest services](https://waterservices.usgs.gov/rest/)
 
 #### Forecast Rules for this week:
 - You can do any mathematical operation using numpy or pandas package to do so and you can use LinearRegression models from the sklearn package.  

@@ -3,6 +3,7 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import datetime
+import dataretrieval.nwis as nwis
 
 
 # %%
@@ -101,6 +102,18 @@ data2 = pd.read_table(url, skiprows=30, names=['agency_cd', 'site_no',
                       parse_dates=['datetime'], index_col='datetime')
 
 # %%
+obs_day = nwis.get_record(sites=site, service='dv',
+                          start=start, end=end,
+                          parameterCd='00060')
+obs_week = np.mean(obs_day['00060_Mean'])
+
+# we can look at the package directly
+# 1) Type conda env list in terminal to see where you environment lives 
+# 2) Navigate to that directory 
+# 3) From that directory go to /libs/pythonxx/site_packages
+# Open up that folder to see all the packages you have!
+
+# %% 
 # Option 3: We can generate this URL and get the data using an API
 # Technically we were already doing this you just didn't know it 
 # API = Application Programming Interface  (Translation - a standard set of appraches/protocols
