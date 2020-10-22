@@ -7,7 +7,9 @@ import os
 import json 
 import urllib.request as req
 import urllib
-
+ #For this to run you will first need to install the following: 
+ # conda install urllib3
+ # conda install json
 
 # %%
 # Mesonet Example - 
