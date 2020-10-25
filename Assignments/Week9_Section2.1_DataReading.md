@@ -36,7 +36,7 @@ ___
 ___
 <a name="instructions"></a>
 ## Setup instructions
-To use the weather station data you will need to sign up for a token with the Mesonet database. You don't have to use this datasets for your assignment but I suggest doing the sign up step regardless. 
+To use the weather station data you will need to sign up for a token with the Mesonet database. You don't have to use this datasets for your assignment but I suggest doing the sign up step regardless.
 
 1. Read the getting started instruction on the mesonet website [here](https://developers.synopticdata.com/mesonet/v2/getting-started/)
 2. [Sign up](https://developers.synopticdata.com/signup/). Fill out the required fields. When this is successful you should get to a page that gives you a token and you should also receive a confirmation email with your token. You can always log back into your account to get this token again or to generate more by going to [this site](https://myaccount.synopticdata.com/)
@@ -79,7 +79,7 @@ You might want to check out the following links for stations and datasets:
 - You can add this as an additional variable to your linear regression model or you can generate your forecast without the regression model this week. Up to you.
 
 #### Written Assignment
-Your submission folder should include a `Readme.md` file that contains the following:
+Your submission folder should include a `Lastname_HW9.md` file that contains the following:
 1. A brief summary of the how you chose to generate your forecast this week.
 2. A description of the dataset you added
   - What is the dataset? Why did you choose it?
