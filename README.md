@@ -9,6 +9,12 @@ The **Content** folder contains all of the reference materials and codes we will
 Refer to the **Forecast** repo for all information and materials relevant for the forecast Competition.
 
 ____
+## Class documents:
+- [Dataset list with API examples](https://docs.google.com/document/d/1atakaik4HrgQxAib0fg4MA7XFfgi-StjPkyG4uJtQzw/edit?usp=sharing)
+- [Map gallery](https://docs.google.com/presentation/d/1Vx_A2FNrRM-08SPloBi5PI6AXIRu9lNdMyihj0gkxdE/edit?usp=sharing)
+- [Scripts for the Map gallery](https://github.com/HAS-Tools-Fall2020/forecasting/tree/master/class_scripts/maps)
+
+____
 ## Online Textbooks and General Python Resources
 - [Intro to Earth Data Science Textbook](https://www.earthdatascience.org/courses/intro-to-earth-data-science/)
 - [Intermediate Earth Data Science Textbook](https://www.earthdatascience.org/courses/use-data-open-source-python/)
