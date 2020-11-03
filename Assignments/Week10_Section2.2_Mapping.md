@@ -47,7 +47,7 @@ ___
 
 ___
 <a name="assignment"></a>
-## Assignment 9: Map our watershed! (Due Monday noon)
+## Assignment 10: Map our watershed! (Due Monday noon)
 This week you will still make a forecast as usual but we won't really be advancing our forecasting approach (you are of course welcome to if you would like though). Rather we are going to focus on making a spatial map of the watershed. As such the assignment has two parts:
  1. Submitting your forecast to the competition as usual and putting the python script you used to generate it in your submission folder of your repo
  2. Creating a map and submitting this to our class gallery and folder of scripts.
