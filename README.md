@@ -13,6 +13,7 @@ ____
 - [Dataset list with API examples](https://docs.google.com/document/d/1atakaik4HrgQxAib0fg4MA7XFfgi-StjPkyG4uJtQzw/edit?usp=sharing)
 - [Map gallery](https://docs.google.com/presentation/d/1Vx_A2FNrRM-08SPloBi5PI6AXIRu9lNdMyihj0gkxdE/edit?usp=sharing)
 - [Scripts for the Map gallery](https://github.com/HAS-Tools-Fall2020/forecasting/tree/master/class_scripts/maps)
+- [NetCDF gallery](https://docs.google.com/presentation/d/1aczDtIH-v7jttA3_CvKQBSiWCfeEyV6LnpbiYbzzPaY/edit?usp=sharing)
 
 ____
 ## Online Textbooks and General Python Resources
