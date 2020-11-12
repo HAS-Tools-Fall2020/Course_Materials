@@ -14,13 +14,23 @@ import fiona
 import shapely
 from netCDF4 import Dataset
 
+
 #NOTE To install the packages you need you should use the followin line:
 # conda install xarray dask netCDF4 bottleneck
+# If it doesn't work all together yo might try installing separately
 
+# NOTE 2: If you end up with conflicts and things not workign I recommend you start a
+# a new environment and that you set the environment to automatically install packages from
+# conda-forge as its first priority. You can do that like this:
+# will look for packages at conda-forge first.
+# From terminal you do the following:
+# conda create --name mynewenv
+# conda activate mynewenv
+# conda config --add channels conda-forge
+# conda config - -set channel_priority strict
 
 # %%
 # Net CDF file historical time series
-# https://towardsdatascience.com/handling-netcdf-files-using-xarray-for-absolute-beginners-111a8ab4463f
 data_path = os.path.join('./data',
                          'Reanalysis_Precip.nc')
 
@@ -35,6 +45,7 @@ metadata = dataset.attrs
 metadata
 # And we can grab out any part of it like this:
 metadata['dataset_title']
+metadata['history']
 
 # we can also look at other  attributes like this
 dataset.values
