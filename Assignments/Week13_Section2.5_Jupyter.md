@@ -5,6 +5,7 @@ ____
 ## Table of Contents:
 1. [ To Do List](#todo)
 1. [ Resources](#resources)
+1. [ Setup](#setup)
 1. [ Training](#training)
 1. [ Assignment](#assignment)
 
@@ -25,6 +26,12 @@ ___
   - [A Gallery of interesting Ipython Notebooks](http://pythonic.zoomquiet.top/data/20171227234039/index.html)
   - [Plotly Phython Notebook Gallery](https://plotly.com/python/v3/ipython-notebooks/)
 
+___
+<a name="setup"></a>
+## Setup
+The only setup for this week is to conda install notebook support for Jupyter. From within your class environment:
+
+`conda install nb_conda`
 ___
 <a name="training"></a>
 ## Required Training Activities
