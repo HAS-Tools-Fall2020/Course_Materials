@@ -1,0 +1,19 @@
+# Your job will use 1 node, 1 core, and 6gb of memory total.
+#PBS -q standard
+#PBS -l select=1:ncpus=1:mem=6gb:pcmem=6gb
+### Specify a name for the job
+#PBS -N test_python
+### Specify the group name
+#PBS -W group_list=lecondon
+### Used if job requires partial node only
+#PBS -l place=pack:shared
+### CPUtime required in hhh:mm:ss.
+### Leading 0's can be omitted e.g 48:0:0 sets 48 hours
+#PBS -l cput=00:10:00
+### Walltime is how long your job will run
+#PBS -l walltime=00:10:00
+#
+
+module load python
+cd ~/HAS_Tools
+python week15_MLexample.py
