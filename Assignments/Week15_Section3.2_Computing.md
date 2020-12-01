@@ -19,12 +19,21 @@ ___
 <a name="references"></a>
 ## References and resources
 **UA HPC**
-- [UA HPC Quick Start Guide](https://public.confluence.arizona.edu/display/UAHPC/Ocelote+Quick+Start)
-- [UA HPC Training](https://public.confluence.arizona.edu/display/UAHPC/Training+Resources)
-- [Portal for account management](https://portal.hpc.arizona.edu/portal/)
-- [OnDemand Dashboard](https://ood.hpc.arizona.edu/pun/sys/dashboard)
-- [Python on UAHPC](https://public.confluence.arizona.edu/display/UAHPC/Using+and+Installing+Python)
-- [Tutoral on running Jupyter Notbooks on UAHPC](https://public.confluence.arizona.edu/display/UAHPC/Jupyter+Notebook+-+Python)
+- Getting started
+  - [Quick Start Guide](https://public.confluence.arizona.edu/display/UAHPC/Ocelote+Quick+Start)
+  - [Training Page](https://public.confluence.arizona.edu/display/UAHPC/Training+Resources)
+  - [Setting up Python on UAHPC](https://public.confluence.arizona.edu/display/UAHPC/Using+and+Installing+Python)
+  - [Tutoral on running Jupyter Notbooks on UAHPC](https://public.confluence.arizona.edu/display/UAHPC/Jupyter+Notebook+-+Python)
+
+- Allocations and storage limits
+  - [Compute time allocations and queue rules](https://public.confluence.arizona.edu/display/UAHPC/Allocation+and+Limits)
+  - [Storage information](https://public.confluence.arizona.edu/display/UAHPC/Storage)
+
+- Account management and access
+  - [Portal for account management](https://portal.hpc.arizona.edu/portal/)
+  - [OnDemand Dashboard](https://ood.hpc.arizona.edu/pun/sys/dashboard)
+
+
 
 **Cyverse**
  - [Cyverse](https://cyverse.org/)
@@ -42,8 +51,8 @@ ___
 <a name="instructions"></a>
 ## Quick Start Steps For logging in and running a job on UAHPC
 These instructions are following [this tutorial](https://public.confluence.arizona.edu/display/UAHPC/Ocelote+Quick+Start)
-0. The first time you want to access UAHPC you will need to activate your account. To do this go [here](https://account.arizona.edu/account/create/hpcaccount)
-and click on the link to `Notify your sponsor of your request` and when prompted put in Tom's email: tmeixner@email.arizona.edu. Once he accepts your request you should have access and step 1 will work for you. 
+- Step 0: The first time you want to access UAHPC you will need to activate your account. To do this go [here](https://account.arizona.edu/account/create/hpcaccount)
+and click on the link to `Notify your sponsor of your request` and when prompted put in Tom's email: tmeixner@email.arizona.edu. Once he accepts your request you should have access and step 1 will work for you.
 
 1. Login to UA HPC. You can do this either from terminal line like this:
 `ssh lecondon@hpc.arizona.edu` (This should work from GitBash but windows users might need to install putty for this to work) or you can login to the on-demand portal: <https://ood.hpc.arizona.edu/>. From the on demand portal you can then launch a terminal and follow along with these instructions the same as if you had launched a local terminal and ssh into HPC. In both cases you should select **Ocelote** as the location.
