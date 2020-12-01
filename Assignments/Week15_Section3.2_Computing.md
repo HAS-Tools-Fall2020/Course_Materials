@@ -42,6 +42,8 @@ ___
 <a name="instructions"></a>
 ## Quick Start Steps For logging in and running a job on UAHPC
 These instructions are following [this tutorial](https://public.confluence.arizona.edu/display/UAHPC/Ocelote+Quick+Start)
+0. The first time you want to access UAHPC you will need to activate your account. To do this go [here](https://account.arizona.edu/account/create/hpcaccount)
+and click on the link to `Notify your sponsor of your request` and when prompted put in Tom's email: tmeixner@email.arizona.edu. Once he accepts your request you should have access and step 1 will work for you. 
 
 1. Login to UA HPC. You can do this either from terminal line like this:
 `ssh lecondon@hpc.arizona.edu` (This should work from GitBash but windows users might need to install putty for this to work) or you can login to the on-demand portal: <https://ood.hpc.arizona.edu/>. From the on demand portal you can then launch a terminal and follow along with these instructions the same as if you had launched a local terminal and ssh into HPC. In both cases you should select **Ocelote** as the location.
