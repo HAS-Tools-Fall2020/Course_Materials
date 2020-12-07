@@ -22,6 +22,24 @@ ____
 - [Python for Data Science Handbook](https://jakevdp.github.io/PythonDataScienceHandbook/)
 - [W3 School Python Tutorial](https://www.w3schools.com/python/python_variables.asp)
 
+___
+## Places to get help and build your skills after this class
+#### Places to ask for Help
+-	[Coffee and Code](https://datascience.arizona.edu/events/300-coffee-code)
+-	[Hacky Hour](https://researchbazaar.arizona.edu/)
+-	[Python Meetup](https://www.meetup.com/Tucson-Python-Meetup/)
+- [Library Python programming drop in hours](https://new.library.arizona.edu/events/python-programming-drop-hours)
+- [HPC help Desk](https://public.confluence.arizona.edu/display/UAHPC/Getting+Help)
+
+#### Places to learn more and expand your skills
+- [UA Research Bazar](https://researchbazaar.arizona.edu/)
+- [Cyverse Training Events](https://cyverse.org/learning)
+- [Data Science Ambasadors](https://datascience.arizona.edu/ambassadors)
+- [Women in Data Science](https://datascience.arizona.edu/women-data-science-wids)
+- [Hack Arizona](https://hackaz.io/)
+- [UA Data Science Institute](https://datascience.arizona.edu/resources)
+
+
 ____
 ## Helpful Links and Tutorials for other tools
 - **Command Line** Note that as long as Windows users are using Git Bash the commands will be the same for them as Mac users. If Windows users use PowerShell instead some of the commands will be different.
